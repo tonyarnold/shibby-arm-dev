@@ -1,5 +1,6 @@
 #!/bin/sh
 rm /opt/brcm-arm
+mkdir /data
 cd /data
 git clone https://bitbucket.org/efries/tomato-arm.git
 cd /data/tomato-arm/release/src-rt-6.x.4708
